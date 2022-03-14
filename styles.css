@@ -5,15 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     --main-padding: 20px;
-    /* --main-border-radius: 8px; */
     --main-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* body{
-    width: 100%;
-    max-width: 1440px;
-    height: 100vh;
-    
-} */
 
 body{
     padding: 50px;
@@ -34,8 +27,6 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-    /* "card-1 card-1 card-2 card-5"
-    "card-3 card-4 card-4 card-5" */
     "card-1 card-1 card-2 card-4"
     "card-4 card-3 card-3 card-4"
     ;
@@ -44,12 +35,10 @@ body{
     
 }   
 .card-1{
-    background-image: url(images/bg-pattern-quotation.svg);
+    background-image: url(bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position-x: 480px;
-    /* background-position-x: right; */
     background-position-y: 2px;
-    /* background-position-y: top; */
     background-size: 100px;
 }
 .dan{
@@ -148,8 +137,6 @@ img{
         grid-template-areas: 
         "card-1 card-1 card-2 card-5"
         "card-3 card-4 card-4 card-5"
-        /* "card-1 card-1 card-2 card-3"
-        "card-4 card-5 card-5 card-3" */
         ;
         
     }
